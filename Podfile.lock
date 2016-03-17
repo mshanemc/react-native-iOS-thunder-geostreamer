@@ -1,0 +1,118 @@
+PODS:
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - React/ART (0.20.0):
+    - React/Core
+  - React/Core (0.20.0)
+  - React/RCTActionSheet (0.20.0):
+    - React/Core
+  - React/RCTAdSupport (0.20.0):
+    - React/Core
+  - React/RCTCameraRoll (0.20.0):
+    - React/Core
+  - React/RCTGeolocation (0.20.0):
+    - React/Core
+  - React/RCTImage (0.20.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.20.0):
+    - React/Core
+  - React/RCTNetwork (0.20.0):
+    - React/Core
+  - React/RCTPushNotification (0.20.0):
+    - React/Core
+  - React/RCTSettings (0.20.0):
+    - React/Core
+  - React/RCTText (0.20.0):
+    - React/Core
+  - React/RCTVibration (0.20.0):
+    - React/Core
+  - React/RCTWebSocket (0.20.0):
+    - React/Core
+  - SalesforceNetwork (4.1.1):
+    - SalesforceNetwork/SalesforceNetwork (= 4.1.1)
+  - SalesforceNetwork/SalesforceNetwork (4.1.1):
+    - SalesforceSDKCore
+  - SalesforceReact (4.1.1):
+    - SalesforceReact/SalesforceReact (= 4.1.1)
+  - SalesforceReact/SalesforceReact (4.1.1):
+    - SmartSync
+  - SalesforceRestAPI (4.1.1):
+    - SalesforceRestAPI/SalesforceRestAPI (= 4.1.1)
+  - SalesforceRestAPI/SalesforceRestAPI (4.1.1):
+    - SalesforceNetwork
+    - SalesforceSDKCore
+  - SalesforceSDKCore (4.1.1):
+    - SalesforceSDKCore/SalesforceSDKCore (= 4.1.1)
+  - SalesforceSDKCore/SalesforceSDKCore (4.1.1):
+    - CocoaLumberjack (~> 2.2.0)
+    - SalesforceSDKCore/SalesforceSDKCore/arc (= 4.1.1)
+    - SalesforceSDKCore/SalesforceSDKCore/base (= 4.1.1)
+    - SalesforceSDKCore/SalesforceSDKCore/no-arc (= 4.1.1)
+  - SalesforceSDKCore/SalesforceSDKCore/arc (4.1.1):
+    - CocoaLumberjack (~> 2.2.0)
+    - SalesforceSDKCore/SalesforceSDKCore/base
+    - SalesforceSDKCore/SalesforceSDKCore/no-arc
+  - SalesforceSDKCore/SalesforceSDKCore/base (4.1.1):
+    - CocoaLumberjack (~> 2.2.0)
+  - SalesforceSDKCore/SalesforceSDKCore/no-arc (4.1.1):
+    - CocoaLumberjack (~> 2.2.0)
+    - SalesforceSDKCore/SalesforceSDKCore/base
+  - SmartStore (4.1.1):
+    - SmartStore/SmartStore (= 4.1.1)
+  - SmartStore/SmartStore (4.1.1):
+    - SalesforceSDKCore
+    - SQLCipher/fts (~> 3.3.1)
+  - SmartSync (4.1.1):
+    - SmartSync/SmartSync (= 4.1.1)
+  - SmartSync/SmartSync (4.1.1):
+    - SalesforceRestAPI
+    - SalesforceSDKCore
+    - SmartStore
+  - SQLCipher/common (3.3.1)
+  - SQLCipher/fts (3.3.1):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - React/ART (from `./node_modules/react-native`)
+  - React/RCTActionSheet (from `./node_modules/react-native`)
+  - React/RCTAdSupport (from `./node_modules/react-native`)
+  - React/RCTCameraRoll (from `./node_modules/react-native`)
+  - React/RCTGeolocation (from `./node_modules/react-native`)
+  - React/RCTImage (from `./node_modules/react-native`)
+  - React/RCTLinkingIOS (from `./node_modules/react-native`)
+  - React/RCTNetwork (from `./node_modules/react-native`)
+  - React/RCTPushNotification (from `./node_modules/react-native`)
+  - React/RCTSettings (from `./node_modules/react-native`)
+  - React/RCTText (from `./node_modules/react-native`)
+  - React/RCTVibration (from `./node_modules/react-native`)
+  - React/RCTWebSocket (from `./node_modules/react-native`)
+  - SalesforceNetwork
+  - SalesforceReact
+  - SalesforceRestAPI
+  - SalesforceSDKCore
+  - SmartStore
+  - SmartSync
+
+EXTERNAL SOURCES:
+  React:
+    :path: ./node_modules/react-native
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  React: 45fc4e7d2946f27e7dc9c17c97e25f16ebc4cef1
+  SalesforceNetwork: ad6107821454c20e062965663636120ea06f82a3
+  SalesforceReact: 4529c6ad446545166eefc0308889f733889cba58
+  SalesforceRestAPI: 981a241137a8756709f163a8aa7b13f6a4686945
+  SalesforceSDKCore: 2e062ccc854dd89f90d6461db804ff8b81fed84e
+  SmartStore: 065395f4028f1ccd6319c5ffb6ba15bcd84183f7
+  SmartSync: 22eb961416f8be77e340cba439b5a2959813a975
+  SQLCipher: d490d2effe735895d2204d25a154b1e722278421
+
+COCOAPODS: 0.39.0
